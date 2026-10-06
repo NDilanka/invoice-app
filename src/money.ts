@@ -7,3 +7,4 @@ export function formatTotal(lines: Line[], currency: string): string {
   const sum = lines.reduce((total, line) => total + line.amount, 0);
   return sum.toFixed(decimalsFor(currency));
 }
+// Acquit novel honest source nonce: fe59c28e-99e2-42e2-803a-c4f97f2629dc
